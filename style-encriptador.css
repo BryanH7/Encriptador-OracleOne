@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    
+  }
+
+  header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1{
+    padding-bottom: 20px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+
+}
+
+  .contenedor {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+  
+  }
+
+  .contenedor h1{
+
+    font-size: 150%;
+    font-family: "Courier New", monospace;
+    padding-bottom: 20px;
+  }
+
+  .contenedor select{
+    padding: 10px 0 10px 10px;
+    border-radius: 10px;
+    
+  }
+
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    margin-top: 10px;
+  }
+
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  #resultado {
+    margin-top: 20px;
+    color: white;
+  }
+
+  footer {
+    display: flex;
+    background: black;
+    text-decoration: none;
+}
+
+.bloque1 p{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.bloque2 li{
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+
+.bloque2 p{
+    margin-bottom: 50px;
+}
+
+.bloque1,
+.bloque2 {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+.bloque1 {
+    border-right: 1px solid #ccc;
+    color: white;
+}
+
+.bloque2 a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+  header h1 {
+      font-size: 24px;
+  }
+
+  nav a {
+      font-size: 16px;
+  }
+
+  .contenedor h1 {
+      font-size: 130%;
+  }
+
+  button {
+      padding: 8px 16px;
+  }
+
+  .bloque1,
+  .bloque2 {
+      font-size: 16px;
+  }
+}

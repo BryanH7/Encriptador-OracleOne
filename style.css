@@ -1,0 +1,169 @@
+*{
+    font-family: "Courier New", monospace;
+}
+
+header{
+    background: black;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Bold 700';
+    font-size: 18px;
+    font-weight: 100;
+    color: aliceblue;
+}
+
+#imagen{
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+
+
+.titulo{
+    text-align: center;
+    margin: 15px 0 15px 0;
+    font-size: 200%;
+}
+
+#subtitulo{
+    font-size: large;
+}
+
+
+.navegacion li{
+
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0 30px 0;
+    text-transform: uppercase;
+    padding: 0 0 0 30px;
+
+
+}
+
+.navegacion a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.navegacion p{
+    text-transform: uppercase;
+}
+
+.subnavegacion{
+    background: #CCCCCC;
+    padding: 30px;
+    color: black;
+    border-radius: 20px;
+}
+
+
+main{
+    background: black;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 10px 10px;
+}
+
+.contenido{
+    background:  #86949a ;
+    padding: 30px 20px 30px 20px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 40px;
+    margin: 0 10px 0 10px;
+}
+
+.boton{
+    text-align: center;
+}
+
+.boton-encriptado{
+    background: #34495E; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; 
+    text-align: center; 
+    text-decoration: none; 
+    font-size: 40px; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    font-family: "Constantia", serif;
+    width: 20%;
+    
+}
+
+.boton-encriptado:hover{
+    background-color: #0c6988;
+}
+
+.boton-encriptado::before {
+    content: "\f023"; 
+    font-family: "Font Awesome 5 Free"; 
+    margin-right: 10px; 
+}
+
+.boton-encriptado:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transform: translateY(2px); 
+}
+
+#componentes{
+    width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 20px;
+}
+
+footer {
+    display: flex;
+    background: black;
+    text-decoration: none;
+}
+
+.bloque1 p{
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.bloque2 li{
+    margin-bottom: 50px;
+    margin-top: auto;
+}
+
+.bloque2 p{
+    margin-bottom: 50px;
+}
+
+.bloque1,
+.bloque2 {
+    flex: 1;
+    padding: 20px;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    
+}
+
+.bloque1 {
+    border-right: 1px solid #ccc;
+    color: white;
+}
+
+.bloque2 a{
+    text-decoration: none;
+    color: white;
+}
+
